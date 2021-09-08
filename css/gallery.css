@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#banner{
+    height: 700px;
+    background-image: url(../Images/gallery.gif);
+}
+#travel{
+    min-height: 500px;
+    text-align: center;
+    /* border: 2px solid; */
+    padding: 30px 100px;
+}
+
+.travel_div{
+    width: 31%;
+    display: inline-block;
+    margin: 1%;
+    padding: 5px;
+}
+.travel_div img{
+    width: 100%;
+    box-shadow: 0px 0px 30px black;
+    padding: 1px;
+}
+
+.travel_div p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+h1{
+    font-size: 30px;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+#music{
+    text-align: center;
+    min-height: 700px;
+}
+.music_div{
+    width: 31%;
+    display: inline-block;
+    margin: 1%;
+    padding: 5px;
+}
+.music_div img{
+    width: 100%;
+    box-shadow: 0px 0px 30px black;
+    padding: 1px;
+}
+.music_div p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+#video{
+    text-align: center;
+    min-height: 700px;
+}
+.video_div{
+    width: 31%;
+    display: inline-block;
+    margin: 1%;
+    padding: 5px;
+    text-align: center;
+    
+}
+.video_div video{
+    width: 100%;
+    box-shadow: 0px 0px 30px black;
+    padding: 1px;
+    height: 350px;
+}
+.video_div p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+#YouTube{
+    text-align: center;
+    min-height: 700px;
+}
+.YouTube_div{
+    width: 31%;
+    display: inline-block;
+    margin: 1%;
+    padding: 5px;
+    text-align: center;
+    
+}
+.YouTube_div iframe{
+    width: 100%;
+    box-shadow: 0px 0px 30px black;
+    padding: 1px;
+    height: 350px;
+}
+.YouTube_div p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+
+}
+main{
+    background-color: white;
+    color: black;
+}

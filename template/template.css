@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Zilla Slab', serif;
+
+}
+header{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    min-height: 80vh;
+    background-color: black;
+}
+footer{
+    min-height: 10vh;
+    background-color: red;
+}
+#logo{
+    font-size: 40px;
+   display: inline-block;
+   font-family: 'Amatic SC', cursive;
+}
+nav ul{
+     list-style: none;
+
+}
+nav ul li{
+    
+    display: inline;
+    padding: 10px 10px;
+    font-size: 30px;
+}
+nav a{
+    color: red;
+    text-decoration: none;
+}
+nav a:hover{
+    color: black;
+}
+footer{
+    display: grid;
+    place-items: center ;
+}

@@ -1,0 +1,30 @@
+#blog-banner{
+    height: 50vh;
+    background-image: url("../images/blog\ banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+#blog-container table{
+    width: 100vw;
+    /* background-color: white; */
+    min-height: 50vh;
+    padding: 2% 10%;
+}
+#blog-left{
+    width: 70%;
+    /* background-color: black ; */
+    min-height: 50vh;  
+}
+#blog-right{
+    width: 30%;
+    background-color: royalblue;
+    min-height: 50vh;  
+}
+.blog-post{
+    width: 33%;
+}
+
+.blog-post img{
+    width: 100%;
+}
